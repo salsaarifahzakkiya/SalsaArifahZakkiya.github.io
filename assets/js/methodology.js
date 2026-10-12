@@ -1,7 +1,7 @@
 /* Metodología: proceso de pentest por fases y forma de practicar en labs/CTF (sin comandos ni payloads) */
 (function(){
 const root=document.getElementById("mRoot");if(!root)return;
-const t=(a,b)=>CDL.t(a,b),p=x=>CDL.lang==="es"?x[0]:x[1];
+const t=(a,b)=>CDL.t(a,b),p=x=>CDL.lang==="id"?x[0]:x[1];
 const PHASES=[
  {id:"pre",n:"00",h:["Pre-acuerdo y alcance","Pre-engagement and scope"],
   goal:["Dejar claro qué se puede probar, cuándo y con qué límites. Sin autorización firmada no se toca nada.","Make clear what can be tested, when and within which limits. Nothing is touched without signed authorization."],
@@ -71,7 +71,7 @@ function pentest(){
   </div>`}
 function ctf(){
   return `<div class="ctf-hero rv"><h2>${t("Cómo <em>practico</em>","How I <em>practice</em>")}</h2><p>${t("Labs, máquinas y competencias. El mismo método que uso en un pentest, aplicado a entornos hechos para aprender.","Labs, machines and competitions. The same method I use on a pentest, applied to environments built for learning.")}</p></div>
-  <div class="steps sweep rv" style="margin-bottom:46px">${LOOP.map(l=>`<div><h3>${CDL.lang==="es"?l[0]:l[1]}</h3><p>${CDL.lang==="es"?l[2]:l[3]}</p></div>`).join("")}</div>
+  <div class="steps sweep rv" style="margin-bottom:46px">${LOOP.map(l=>`<div><h3>${CDL.lang==="id"?l[0]:l[1]}</h3><p>${CDL.lang==="id"?l[2]:l[3]}</p></div>`).join("")}</div>
   <div class="cat"><div class="cat-h"><span class="tag" style="--c:var(--blue)">${t("ÁREAS","AREAS")}</span><h3>${t("En qué entreno","What I train")}</h3></div>
     <div class="arsenal">${PRACTICE.map(a=>`<div class="spot rv" style="--c:${a.c}"><h4>${p(a.h)}</h4><p>${p(a.d)}</p><div class="stack">${a.tools.map(x=>`<span>${x}</span>`).join("")}</div></div>`).join("")}</div></div>
   <div class="cat"><div class="cat-h"><span class="tag" style="--c:var(--ok)">${t("PLATAFORMAS","PLATFORMS")}</span><h3>${t("Dónde practico","Where I practice")}</h3></div>

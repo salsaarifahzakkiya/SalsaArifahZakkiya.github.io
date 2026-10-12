@@ -1,139 +1,823 @@
 <!doctype html>
-<html lang="es" data-lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>cdeluna.sec · Cristian De Luna</title>
-<meta name="description" content="Portafolio de Cristian De Luna, pentester junior certificado HTB CJCA y desarrollador en Santo Domingo, RD.">
-<meta property="og:title" content="cdeluna.sec · Cristian De Luna">
-<meta property="og:description" content="Portafolio de Cristian De Luna, pentester junior certificado HTB CJCA y desarrollador en Santo Domingo, RD.">
-<meta name="theme-color" content="#04080f">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2304080f'/%3E%3Ctext x='5' y='22' font-family='monospace' font-size='16' font-weight='700' fill='%234d8dff'%3E%3E_%3C/text%3E%3C/svg%3E">
-<script>try{document.documentElement.dataset.lang=localStorage.getItem("cdl-lang")||"es"}catch(e){document.documentElement.dataset.lang="es"}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body data-page="home">
-<header class="nav">
-  <div class="wrap">
-    <a class="logo" href="index.html" aria-label="cdeluna.sec">cdeluna<b>.</b>sec<span class="cur"></span></a>
-    <nav class="links" id="links" aria-label="Principal"><a href="index.html" data-k="home"><span data-l="es">Inicio</span><span data-l="en">Home</span></a><a href="about.html" data-k="about"><span data-l="es">Sobre mí</span><span data-l="en">About</span></a><a href="projects.html" data-k="projects"><span data-l="es">Proyectos</span><span data-l="en">Projects</span></a><a href="services.html" data-k="services"><span data-l="es">Servicios</span><span data-l="en">Services</span></a><a href="methodology.html" data-k="methodology"><span data-l="es">Metodología</span><span data-l="en">Methodology</span></a><a href="writeups.html" data-k="writeups"><span data-l="es">Writeups</span><span data-l="en">Writeups</span></a><a href="certificates.html" data-k="certificates"><span data-l="es">Certificaciones</span><span data-l="en">Certificates</span></a><a href="contact.html" data-k="contact"><span data-l="es">Contacto</span><span data-l="en">Contact</span></a></nav>
-    <div class="tools">
-      <button class="btn-ghost" id="langBtn" aria-label="Cambiar idioma / Change language">EN</button>
-      <button class="btn-ghost" id="tvBtn">Terminal</button>
-      <button class="btn-ghost menu-btn" id="menuBtn" aria-label="Menú">☰</button>
-    </div>
-  </div>
-</header>
-<main id="top">
-
-<section class="hero">
-  <canvas id="net" aria-hidden="true"></canvas>
-  <div class="wrap">
-    <div class="hero-text">
-      <div class="boot ld">[ OK ] <span><span data-l="es">ACCESO CONCEDIDO · SESIÓN CIFRADA</span><span data-l="en">ACCESS GRANTED · ENCRYPTED SESSION</span></span></div>
-      <h1 class="ld" style="animation-delay:.1s"><span class="glitch" data-text="Cristian">Cristian</span><br><em class="glitch" data-text="De Luna">De Luna</em></h1>
-      <div class="typed ld" id="typed" aria-live="polite" style="animation-delay:.2s"></div>
-      <p class="lead ld" style="animation-delay:.3s"><span data-l="es">Estudiante de Ciberseguridad en ITLA y certificado CJCA de Hack The Box. Hago pruebas de penetración y auditorías web autorizadas, y desarrollo las herramientas que uso para estudiar y trabajar.</span><span data-l="en">Cybersecurity student at ITLA and Hack The Box CJCA certified. I perform authorized penetration tests and web security audits, and I build the tools I use to study and work.</span></p>
-      <div class="cta ld" style="animation-delay:.4s">
-        <a class="btn primary mag" href="services.html"><span data-l="es">Contratar servicios</span><span data-l="en">Hire me</span></a>
-        <a class="btn line mag" href="about.html"><span data-l="es">Conóceme</span><span data-l="en">About me</span></a>
+<html lang="id" data-lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>Salsa.sec · Salsa Arifah Zakkiya</title>
+    <meta
+      name="description"
+      content="Portofolio Cybersecurity dari Salsa Arifah Zakkiya, seorang IT Security Analyst yang berfokus pada GRC (Governance, Risk, and Compliance) dan Purple Team"
+    />
+    <meta property="og:title" content="Salsa.sec · Salsa Arifah Zakkiya" />
+    <meta
+      property="og:description"
+      content="Portofolio Cybersecurity dari Salsa Arifah Zakkiya, seorang IT Security Analyst yang berfokus pada GRC (Governance, Risk, and Compliance) dan Purple Team"
+    />
+    <meta name="theme-color" content="#04080f" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2304080f'/%3E%3Ctext x='5' y='22' font-family='monospace' font-size='16' font-weight='700' fill='%234d8dff'%3E%3E_%3C/text%3E%3C/svg%3E"
+    />
+    <script>
+      try {
+        document.documentElement.dataset.lang =
+          localStorage.getItem("cdl-lang") || "id";
+      } catch (e) {
+        document.documentElement.dataset.lang = "id";
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-page="home">
+    <header class="nav">
+      <div class="wrap">
+        <a class="logo" href="index.html" aria-label="salsa.sec"
+          >SalsaArifahZakkiya<b>.</b>sec<span class="cur"></span
+        ></a>
+        <nav class="links" id="links" aria-label="Principal">
+          <a href="index.html" data-k="home">
+            <span data-l="id">Halaman Utama</span>
+            <span data-l="en">Home</span>
+          </a>
+          <a href="about.html" data-k="about"
+            ><span data-l="id">Tentang Saya</span
+            ><span data-l="en">About Me</span></a
+          ><a href="projects.html" data-k="projects"
+            ><span data-l="id">Proyek</span><span data-l="en">Projects</span></a
+          ><a href="services.html" data-k="services"
+            ><span data-l="id">Services</span
+            ><span data-l="en">Services</span></a
+          ><a href="methodology.html" data-k="methodology"
+            ><span data-l="id">Metodologi</span
+            ><span data-l="en">Methodology</span></a
+          ><a href="writeups.html" data-k="writeups"
+            ><span data-l="id">Writeups</span
+            ><span data-l="en">Writeups</span></a
+          ><a href="certificates.html" data-k="certificates"
+            ><span data-l="id">Sertifikat</span
+            ><span data-l="en">Certificates</span></a
+          ><a href="contact.html" data-k="contact"
+            ><span data-l="id">Kontak</span><span data-l="en">Contact</span></a
+          >
+        </nav>
+        <div class="tools">
+          <button
+            class="btn-ghost"
+            id="langBtn"
+            aria-label="Ganti bahasa / Change language"
+          >
+            ID
+          </button>
+          <button class="btn-ghost" id="tvBtn">Terminal</button>
+          <button class="btn-ghost menu-btn" id="menuBtn" aria-label="Menu">
+            ☰
+          </button>
+        </div>
       </div>
-      <div class="ld" style="animation-delay:.5s"><div class="socials"><a href="https://github.com/cdelunasec" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a><a href="https://www.linkedin.com/in/cristian-de-luna-a615993aa" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21h-4z"/></svg></a><a href="https://profile.hackthebox.com/profile/019d363d-97a9-7000-80f8-97a98ddf913b" target="_blank" rel="noopener" aria-label="Hack The Box" title="Hack The Box"><svg viewBox="0 0 24 24"><path d="M12 1.5 2.9 6.75v10.5L12 22.5l9.1-5.25V6.75zm0 2.3 6.9 3.98L12 11.76 5.1 7.78zM4.9 9.5l6.1 3.52v7.03l-6.1-3.52zm8.1 10.55v-7.03l6.1-3.52v7.03z"/></svg></a><a href="https://www.credly.com/users/cristian-de-luna.58042586" target="_blank" rel="noopener" aria-label="Credly" title="Credly"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-4 12.74V22l4-2 4 2v-7.26A7 7 0 0 0 12 2zm0 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2-.9 1.83-2 .3 1.45 1.41-.34 2 1.79-.94 1.79.94-.34-2 1.45-1.41-2-.3z"/></svg></a><a href="https://wa.me/18492591279" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp" data-wa><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.13-1.47-.73-1.7-.81-.23-.08-.4-.13-.56.12-.17.25-.64.81-.79.98-.14.17-.29.19-.54.06a6.7 6.7 0 0 1-3.34-2.92c-.25-.43.25-.4.72-1.33.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.02 2.6c.13.17 1.77 2.7 4.29 3.79 1.6.69 2.22.75 3.02.63.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg></a></div></div>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <canvas id="net" aria-hidden="true"></canvas>
+        <div class="wrap">
+          <div class="hero-text">
+            <div class="boot ld">
+              [ OK ]
+              <span
+                ><span data-l="id">AKSES DIIZINKAN · SESI TERENKRIPSI</span
+                ><span data-l="en"
+                  >ACCESS GRANTED · ENCRYPTED SESSION</span
+                ></span
+              >
+            </div>
+            <h1 class="ld" style="animation-delay: 0.1s">
+              <span class="glitch" data-text="Salsa">Salsa</span><br /><em
+                class="glitch"
+                data-text="Arifah Zakkiya"
+                >Arifah Zakkiya</em
+              >
+            </h1>
+            <div
+              class="typed ld"
+              id="typed"
+              aria-live="polite"
+              style="animation-delay: 0.2s"
+            ></div>
+            <p class="lead ld" style="animation-delay: 0.3s">
+              <span data-l="id"
+                >Estudiante de Ciberseguridad en ITLA y certificado CJCA de Hack
+                The Box. Hago pruebas de penetración y auditorías web
+                autorizadas, y desarrollo las herramientas que uso para estudiar
+                y trabajar.</span
+              ><span data-l="en"
+                >Cybersecurity student at ITLA and Hack The Box CJCA certified.
+                I perform authorized penetration tests and web security audits,
+                and I build the tools I use to study and work.</span
+              >
+            </p>
+            <div class="cta ld" style="animation-delay: 0.4s">
+              <a class="btn primary mag" href="services.html"
+                ><span data-l="id">Contratar servicios</span
+                ><span data-l="en">Hire me</span></a
+              >
+              <a class="btn line mag" href="about.html"
+                ><span data-l="id">Conóceme</span
+                ><span data-l="en">About me</span></a
+              >
+            </div>
+            <div class="ld" style="animation-delay: 0.5s">
+              <div class="socials">
+                <a
+                  href="https://github.com/cdelunasec"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="GitHub"
+                  title="GitHub"
+                  ><svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"
+                    /></svg></a
+                ><a
+                  href="https://www.linkedin.com/in/cristian-de-luna-a615993aa"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="LinkedIn"
+                  title="LinkedIn"
+                  ><svg viewBox="0 0 24 24">
+                    <path
+                      d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21h-4z"
+                    /></svg></a
+                ><a
+                  href="https://profile.hackthebox.com/profile/019d363d-97a9-7000-80f8-97a98ddf913b"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Hack The Box"
+                  title="Hack The Box"
+                  ><svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 1.5 2.9 6.75v10.5L12 22.5l9.1-5.25V6.75zm0 2.3 6.9 3.98L12 11.76 5.1 7.78zM4.9 9.5l6.1 3.52v7.03l-6.1-3.52zm8.1 10.55v-7.03l6.1-3.52v7.03z"
+                    /></svg></a
+                ><a
+                  href="https://www.credly.com/users/cristian-de-luna.58042586"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Credly"
+                  title="Credly"
+                  ><svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 2a7 7 0 0 0-4 12.74V22l4-2 4 2v-7.26A7 7 0 0 0 12 2zm0 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2-.9 1.83-2 .3 1.45 1.41-.34 2 1.79-.94 1.79.94-.34-2 1.45-1.41-2-.3z"
+                    /></svg></a
+                ><a
+                  href="mailto:salsaarifahzakkiya@egmail.com"
+                  aria-label="Email"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    width="20"
+                    height="20"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    ></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="avatar ld"
+            id="avatar"
+            aria-hidden="true"
+            style="animation-delay: 0.25s"
+          >
+            <div class="av-in" id="avIn">
+              <div class="ring r3"></div>
+              <div class="ring"></div>
+              <div class="ring r4"></div>
+              <div class="ring r2"></div>
+              <div class="orbit"></div>
+              <div class="orbit o2"></div>
+              <img src="assets/img/avatar.jpg" alt="" />
+              <div class="scanbar"></div>
+              <div class="tag-float t1"><i>●</i> CJCA · HTB</div>
+              <div class="tag-float t2">Santo Domingo, RD</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="strip">
+        <div class="wrap">
+          <div class="cell">
+            <div class="k">
+              <span data-l="id">Certificación</span
+              ><span data-l="en">Certification</span>
+            </div>
+            <div class="v">
+              HTB CJCA<small
+                ><span data-l="id">octubre 2026</span
+                ><span data-l="en">October 2026</span></small
+              >
+            </div>
+          </div>
+          <div class="cell">
+            <div class="k">
+              <span data-l="id">Práctica</span><span data-l="en">Practice</span>
+            </div>
+            <div class="v">
+              Starting Point<small
+                ><span data-l="id">completado, todos los tiers</span
+                ><span data-l="en">completed, all tiers</span></small
+              >
+            </div>
+          </div>
+          <div class="cell">
+            <div class="k">
+              <span data-l="id">Enfoque</span><span data-l="en">Focus</span>
+            </div>
+            <div class="v">
+              Web App Pentesting<small
+                ><span data-l="id">rumbo a CPTS</span
+                ><span data-l="en">heading to CPTS</span></small
+              >
+            </div>
+          </div>
+          <div class="cell">
+            <div class="k">
+              <span data-l="id">Formación</span
+              ><span data-l="en">Education</span>
+            </div>
+            <div class="v">
+              ITLA<small
+                ><span data-l="id">Ciberseguridad</span
+                ><span data-l="en">Cybersecurity</span></small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="block" id="terminal">
+        <div class="wrap">
+          <div class="head rv">
+            <div>
+              <div class="eyebrow">
+                <span data-l="id">Terminal en vivo</span
+                ><span data-l="en">Live terminal</span>
+              </div>
+              <h2>whoami</h2>
+            </div>
+            <p>
+              <span data-l="id"
+                >Esta terminal lee tu propia sesión en el navegador. Nada sale
+                de tu equipo, todo se calcula aquí mismo.</span
+              ><span data-l="en"
+                >This terminal reads your own browser session. Nothing leaves
+                your device, everything is computed right here.</span
+              >
+            </p>
+          </div>
+          <div class="term rv sweep">
+            <div class="term-bar">
+              <i></i><i></i><i></i><span>deluna@kali: ~/portfolio</span
+              ><span class="live">● LIVE</span>
+            </div>
+            <div class="term-body" id="liveTerm"></div>
+          </div>
+        </div>
+      </section>
+      <section class="block tight">
+        <div class="wrap">
+          <div class="head rv">
+            <div>
+              <div class="eyebrow">Developer side</div>
+              <h2>
+                <span data-l="id">Lo que he construido</span
+                ><span data-l="en">What I've built</span>
+              </h2>
+            </div>
+            <a class="more" href="projects.html"
+              ><span data-l="id">Ver todos los proyectos →</span
+              ><span data-l="en">See all projects →</span></a
+            >
+          </div>
+          <div class="proj">
+            <article class="card main rv spot">
+              <span class="badge"
+                ><span data-l="id">Proyecto principal</span
+                ><span data-l="en">Main project</span></span
+              >
+              <h3>D-Luna Learning</h3>
+              <p>
+                <span data-l="id"
+                  >Plataforma de aprendizaje de ciberseguridad con writeups,
+                  flashcards y un generador de reportes de pentest con IA.</span
+                ><span data-l="en"
+                  >Cybersecurity learning platform with writeups, flashcards and
+                  an AI pentest report builder.</span
+                >
+              </p>
+              <div class="stack">
+                <span>React</span><span>TypeScript</span><span>Supabase</span
+                ><span>MCP</span>
+              </div>
+              <a
+                class="go"
+                href="https://delunalearning.do"
+                target="_blank"
+                rel="noopener"
+                >delunalearning.do ↗</a
+              >
+            </article>
+            <article class="card rv spot">
+              <span class="badge">CJCA Trainer</span>
+              <h3>
+                <span data-l="id">Práctica de comandos</span
+                ><span data-l="en">Command practice</span>
+              </h3>
+              <p>
+                <span data-l="id"
+                  >App para practicar la enumeración de servicios que pide la
+                  CJCA.</span
+                ><span data-l="en"
+                  >App to practice the service enumeration the CJCA
+                  requires.</span
+                >
+              </p>
+              <a
+                class="go"
+                href="https://cjca-trainer.lovable.app/"
+                target="_blank"
+                rel="noopener"
+                >cjca-trainer.lovable.app ↗</a
+              >
+            </article>
+            <article class="card rv spot">
+              <span class="badge">DL-Stock</span>
+              <h3>
+                <span data-l="id">Inventario para pymes</span
+                ><span data-l="en">Inventory for SMBs</span>
+              </h3>
+              <p>
+                <span data-l="id"
+                  >SaaS de inventario y facturación para negocios
+                  dominicanos.</span
+                ><span data-l="en"
+                  >Inventory and invoicing SaaS for Dominican businesses.</span
+                >
+              </p>
+              <span class="go off"
+                ><span data-l="id">Link próximamente</span
+                ><span data-l="en">Link coming soon</span></span
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="block tight">
+        <div class="wrap">
+          <div class="head rv">
+            <div>
+              <div class="eyebrow">
+                <span data-l="id">Servicios</span
+                ><span data-l="en">Services</span>
+              </div>
+              <h2>
+                <span data-l="id">En qué te puedo ayudar</span
+                ><span data-l="en">How I can help</span>
+              </h2>
+            </div>
+            <p>
+              <span data-l="id"
+                >Klik layanan untuk melihat detailnya, atau hubungi saya
+                langsung melalui Email</span
+              ><span data-l="en"
+                >Tap a service to see the details, or contact me directly via
+                Email.</span
+              >
+            </p>
+          </div>
+          <div class="svc rv sweep">
+            <div class="spot">
+              <span class="n">01</span>
+              <h3>
+                <a href="services.html#escaneo" style="color: inherit"
+                  ><span data-l="id">Escaneo de vulnerabilidades</span
+                  ><span data-l="en">Vulnerability scanning</span></a
+                >
+              </h3>
+              <p>
+                <span data-l="id"
+                  >Puertos, servicios y versiones expuestas con reporte de
+                  riesgos.</span
+                ><span data-l="en"
+                  >Exposed ports, services and versions with a risk
+                  report.</span
+                >
+              </p>
+              <div class="acts">
+                <a
+                  class="hire"
+                  data-wa="escaneo"
+                  href="https://wa.me/18492591279"
+                  target="_blank"
+                  rel="noopener"
+                  ><span data-l="id">Contratar ↗</span
+                  ><span data-l="en">Hire ↗</span></a
+                ><a class="det" href="services.html#escaneo"
+                  ><span data-l="id">Detalle →</span
+                  ><span data-l="en">Details →</span></a
+                >
+              </div>
+            </div>
+            <div class="spot">
+              <span class="n">02</span>
+              <h3>
+                <a href="services.html#auditoria-web" style="color: inherit"
+                  ><span data-l="id">Auditoría de seguridad web</span
+                  ><span data-l="en">Web security audit</span></a
+                >
+              </h3>
+              <p>
+                <span data-l="id"
+                  >WordPress y sitios a medida: plugins, archivos expuestos,
+                  usuarios.</span
+                ><span data-l="en"
+                  >WordPress and custom sites: plugins, exposed files,
+                  users.</span
+                >
+              </p>
+              <div class="acts">
+                <a
+                  class="hire"
+                  data-wa="auditoria-web"
+                  href="https://wa.me/18492591279"
+                  target="_blank"
+                  rel="noopener"
+                  ><span data-l="id">Contratar ↗</span
+                  ><span data-l="en">Hire ↗</span></a
+                ><a class="det" href="services.html#auditoria-web"
+                  ><span data-l="id">Detalle →</span
+                  ><span data-l="en">Details →</span></a
+                >
+              </div>
+            </div>
+            <div class="spot">
+              <span class="n">03</span>
+              <h3>
+                <a href="services.html#pentest-web" style="color: inherit"
+                  ><span data-l="id">Pentesting web autorizado</span
+                  ><span data-l="en">Authorized web pentest</span></a
+                >
+              </h3>
+              <p>
+                <span data-l="id"
+                  >Control de acceso, autenticación y lógica de negocio.</span
+                ><span data-l="en"
+                  >Access control, authentication and business logic.</span
+                >
+              </p>
+              <div class="acts">
+                <a
+                  class="hire"
+                  data-wa="pentest-web"
+                  href="https://wa.me/18492591279"
+                  target="_blank"
+                  rel="noopener"
+                  ><span data-l="id">Contratar ↗</span
+                  ><span data-l="en">Hire ↗</span></a
+                ><a class="det" href="services.html#pentest-web"
+                  ><span data-l="id">Detalle →</span
+                  ><span data-l="en">Details →</span></a
+                >
+              </div>
+            </div>
+            <div class="spot">
+              <span class="n">04</span>
+              <h3>
+                <a href="services.html#cloud" style="color: inherit"
+                  ><span data-l="id">Revisión de configuración cloud</span
+                  ><span data-l="en">Cloud config review</span></a
+                >
+              </h3>
+              <p>
+                <span data-l="id"
+                  >Supabase, políticas RLS e IP de origen detrás de
+                  Cloudflare.</span
+                ><span data-l="en"
+                  >Supabase, RLS policies and origin IP behind Cloudflare.</span
+                >
+              </p>
+              <div class="acts">
+                <a
+                  class="hire"
+                  data-wa="cloud"
+                  href="https://wa.me/18492591279"
+                  target="_blank"
+                  rel="noopener"
+                  ><span data-l="id">Contratar ↗</span
+                  ><span data-l="en">Hire ↗</span></a
+                ><a class="det" href="services.html#cloud"
+                  ><span data-l="id">Detalle →</span
+                  ><span data-l="en">Details →</span></a
+                >
+              </div>
+            </div>
+            <div class="spot">
+              <span class="n">05</span>
+              <h3>
+                <a href="services.html#hardening" style="color: inherit"
+                  ><span data-l="id">Hardening</span
+                  ><span data-l="en">Hardening</span></a
+                >
+              </h3>
+              <p>
+                <span data-l="id"
+                  >Cambios concretos para cerrar lo encontrado.</span
+                ><span data-l="en"
+                  >Concrete changes to close what was found.</span
+                >
+              </p>
+              <div class="acts">
+                <a
+                  class="hire"
+                  data-wa="hardening"
+                  href="https://wa.me/18492591279"
+                  target="_blank"
+                  rel="noopener"
+                  ><span data-l="id">Contratar ↗</span
+                  ><span data-l="en">Hire ↗</span></a
+                ><a class="det" href="services.html#hardening"
+                  ><span data-l="id">Detalle →</span
+                  ><span data-l="en">Details →</span></a
+                >
+              </div>
+            </div>
+            <div class="spot">
+              <span class="n">06</span>
+              <h3>
+                <a href="services.html#reportes" style="color: inherit"
+                  ><span data-l="id">Reportes de seguridad</span
+                  ><span data-l="en">Security reports</span></a
+                >
+              </h3>
+              <p>
+                <span data-l="id"
+                  >Evidencia, severidad y pasos de remediación.</span
+                ><span data-l="en"
+                  >Evidence, severity and remediation steps.</span
+                >
+              </p>
+              <div class="acts">
+                <a
+                  class="hire"
+                  data-wa="reportes"
+                  href="https://wa.me/18492591279"
+                  target="_blank"
+                  rel="noopener"
+                  ><span data-l="id">Contratar ↗</span
+                  ><span data-l="en">Hire ↗</span></a
+                ><a class="det" href="services.html#reportes"
+                  ><span data-l="id">Detalle →</span
+                  ><span data-l="en">Details →</span></a
+                >
+              </div>
+            </div>
+            <div class="spot">
+              <span class="n">07</span>
+              <h3>
+                <a href="services.html#desarrollo-web" style="color: inherit"
+                  ><span data-l="id">Desarrollo web</span
+                  ><span data-l="en">Web development</span></a
+                >
+              </h3>
+              <p>
+                <span data-l="id"
+                  >Sitios rápidos y seguros desde el inicio.</span
+                ><span data-l="en">Fast sites, secure from day one.</span>
+              </p>
+              <div class="acts">
+                <a
+                  class="hire"
+                  data-wa="desarrollo-web"
+                  href="https://wa.me/18492591279"
+                  target="_blank"
+                  rel="noopener"
+                  ><span data-l="id">Contratar ↗</span
+                  ><span data-l="en">Hire ↗</span></a
+                ><a class="det" href="services.html#desarrollo-web"
+                  ><span data-l="id">Detalle →</span
+                  ><span data-l="en">Details →</span></a
+                >
+              </div>
+            </div>
+            <div class="spot">
+              <span class="n">08</span>
+              <h3>
+                <a href="services.html#sistemas" style="color: inherit"
+                  ><span data-l="id">Sistemas a medida</span
+                  ><span data-l="en">Custom systems</span></a
+                >
+              </h3>
+              <p>
+                <span data-l="id"
+                  >Inventario, facturación y paneles internos.</span
+                ><span data-l="en"
+                  >Inventory, invoicing and internal dashboards.</span
+                >
+              </p>
+              <div class="acts">
+                <a
+                  class="hire"
+                  data-wa="sistemas"
+                  href="https://wa.me/18492591279"
+                  target="_blank"
+                  rel="noopener"
+                  ><span data-l="id">Contratar ↗</span
+                  ><span data-l="en">Hire ↗</span></a
+                ><a class="det" href="services.html#sistemas"
+                  ><span data-l="id">Detalle →</span
+                  ><span data-l="en">Details →</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block tight">
+        <div class="wrap">
+          <div class="contact rv spot sweep">
+            <div>
+              <div class="eyebrow">
+                <span data-l="id">Contacto</span
+                ><span data-l="en">Contact</span>
+              </div>
+              <h2>
+                <span data-l="id">¿Tienes un sitio que quieres asegurar?</span
+                ><span data-l="en">Have a site you want secured?</span>
+              </h2>
+              <p>
+                <span data-l="id"
+                  >Escríbeme y lo hablamos. También estoy abierto a
+                  oportunidades de trabajo en seguridad, presencial en Santo
+                  Domingo o remoto.</span
+                ><span data-l="en"
+                  >Message me and let's talk. I'm also open to security roles,
+                  on-site in Santo Domingo or remote.</span
+                >
+              </p>
+            </div>
+            <div class="chan">
+              <a
+                data-wa
+                href="mailto:salsaarifahzakkiya@gmail.com"
+                target="_blank"
+                rel="noopener"
+                >Email
+                <span>
+                  <span data-l="id">kirim pesan ↗</span>
+                  <span data-l="en">send email ↗</span>
+                </span>
+              </a>
+              <button type="button" id="copyMail">
+                cdeluna.sec@gmail.com
+                <span id="copyLbl"
+                  ><span data-l="id">copiar</span
+                  ><span data-l="en">copy</span></span
+                >
+              </button>
+              <a href="contact.html"
+                ><span data-l="id">Más formas de contacto</span
+                ><span data-l="en">More ways to reach me</span>
+                <span>→</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="logo">cdeluna<b>.</b>sec</div>
+      <p>
+        <span data-l="id"
+          >Pentesting web, auditorías de seguridad y desarrollo. Santo Domingo,
+          República Dominicana.</span
+        ><span data-l="en"
+          >Web pentesting, security audits and development. Santo Domingo,
+          Dominican Republic.</span
+        >
+      </p>
+      <div class="socials">
+        <a
+          href="https://github.com/cdelunasec"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+          title="GitHub"
+          ><svg viewBox="0 0 24 24">
+            <path
+              d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"
+            /></svg></a
+        ><a
+          href="https://www.linkedin.com/in/cristian-de-luna-a615993aa"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+          title="LinkedIn"
+          ><svg viewBox="0 0 24 24">
+            <path
+              d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21h-4z"
+            /></svg></a
+        ><a
+          href="https://profile.hackthebox.com/profile/019d363d-97a9-7000-80f8-97a98ddf913b"
+          target="_blank"
+          rel="noopener"
+          aria-label="Hack The Box"
+          title="Hack The Box"
+          ><svg viewBox="0 0 24 24">
+            <path
+              d="M12 1.5 2.9 6.75v10.5L12 22.5l9.1-5.25V6.75zm0 2.3 6.9 3.98L12 11.76 5.1 7.78zM4.9 9.5l6.1 3.52v7.03l-6.1-3.52zm8.1 10.55v-7.03l6.1-3.52v7.03z"
+            /></svg></a
+        ><a
+          href="https://www.credly.com/users/cristian-de-luna.58042586"
+          target="_blank"
+          rel="noopener"
+          aria-label="Credly"
+          title="Credly"
+          ><svg viewBox="0 0 24 24">
+            <path
+              d="M12 2a7 7 0 0 0-4 12.74V22l4-2 4 2v-7.26A7 7 0 0 0 12 2zm0 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2-.9 1.83-2 .3 1.45 1.41-.34 2 1.79-.94 1.79.94-.34-2 1.45-1.41-2-.3z"
+            /></svg></a
+        ><a href="mailto:salsaarifahzakkiya@gmail.com" aria-label="Email">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            width="20"
+            height="20"
+          >
+            <path
+              d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+            ></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
+      <div class="sm">© 2026 Cristian De Luna · cdeluna.sec@gmail.com</div>
+    </footer>
+    <button class="bot-btn" id="botBtn" aria-label="Selene">
+      <span>☾</span> Selene
+    </button>
+    <div class="bot" id="bot" hidden>
+      <header>
+        <div>
+          Selene<small
+            ><span data-l="id">ASISTENTE DEL PORTAFOLIO</span
+            ><span data-l="en">PORTFOLIO ASSISTANT</span></small
+          >
+        </div>
+        <button id="botX" aria-label="Cerrar">×</button>
+      </header>
+      <div class="msgs" id="botMsgs"></div>
+      <div class="chips" id="botChips"></div>
     </div>
-    <div class="avatar ld" id="avatar" aria-hidden="true" style="animation-delay:.25s">
-      <div class="av-in" id="avIn">
-        <div class="ring r3"></div><div class="ring"></div><div class="ring r4"></div><div class="ring r2"></div>
-        <div class="orbit"></div><div class="orbit o2"></div>
-        <img src="assets/img/avatar.jpg" alt="">
-        <div class="scanbar"></div>
-        <div class="tag-float t1"><i>●</i> CJCA · HTB</div>
-        <div class="tag-float t2">Santo Domingo, RD</div>
+    <div class="tboot" id="tboot" hidden></div>
+    <div class="tdock" id="tdock" hidden>
+      <div class="grip" id="grip" title="Arrastra para cambiar el ancho"></div>
+      <div class="t-head">
+        <i></i><i></i><i></i><span>deluna@kali: ~/portfolio</span><b>● LIVE</b>
+      </div>
+      <div class="t-out" id="tOut"></div>
+      <div class="t-in">
+        <span class="pl">┌──(deluna㉿kali)-[~/portfolio]</span>
+        <div class="row">
+          <span class="pl">└─$</span
+          ><input
+            id="tIn"
+            autocomplete="off"
+            spellcheck="false"
+            aria-label="Comando"
+            placeholder="type: help"
+          />
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<div class="strip"><div class="wrap">
-  <div class="cell"><div class="k"><span data-l="es">Certificación</span><span data-l="en">Certification</span></div><div class="v">HTB CJCA<small><span data-l="es">octubre 2026</span><span data-l="en">October 2026</span></small></div></div>
-  <div class="cell"><div class="k"><span data-l="es">Práctica</span><span data-l="en">Practice</span></div><div class="v">Starting Point<small><span data-l="es">completado, todos los tiers</span><span data-l="en">completed, all tiers</span></small></div></div>
-  <div class="cell"><div class="k"><span data-l="es">Enfoque</span><span data-l="en">Focus</span></div><div class="v">Web App Pentesting<small><span data-l="es">rumbo a CPTS</span><span data-l="en">heading to CPTS</span></small></div></div>
-  <div class="cell"><div class="k"><span data-l="es">Formación</span><span data-l="en">Education</span></div><div class="v">ITLA<small><span data-l="es">Ciberseguridad</span><span data-l="en">Cybersecurity</span></small></div></div>
-</div></div>
-<section class="block" id="terminal">
-  <div class="wrap">
-    <div class="head rv"><div><div class="eyebrow"><span data-l="es">Terminal en vivo</span><span data-l="en">Live terminal</span></div><h2>whoami</h2></div>
-      <p><span data-l="es">Esta terminal lee tu propia sesión en el navegador. Nada sale de tu equipo, todo se calcula aquí mismo.</span><span data-l="en">This terminal reads your own browser session. Nothing leaves your device, everything is computed right here.</span></p></div>
-    <div class="term rv sweep">
-      <div class="term-bar"><i></i><i></i><i></i><span>deluna@kali: ~/portfolio</span><span class="live">● LIVE</span></div>
-      <div class="term-body" id="liveTerm"></div>
-    </div>
-  </div>
-</section>
-<section class="block tight">
-  <div class="wrap">
-    <div class="head rv"><div><div class="eyebrow">Developer side</div><h2><span data-l="es">Lo que he construido</span><span data-l="en">What I've built</span></h2></div>
-      <a class="more" href="projects.html"><span data-l="es">Ver todos los proyectos →</span><span data-l="en">See all projects →</span></a></div>
-    <div class="proj">
-      <article class="card main rv spot">
-        <span class="badge"><span data-l="es">Proyecto principal</span><span data-l="en">Main project</span></span>
-        <h3>D-Luna Learning</h3>
-        <p><span data-l="es">Plataforma de aprendizaje de ciberseguridad con writeups, flashcards y un generador de reportes de pentest con IA.</span><span data-l="en">Cybersecurity learning platform with writeups, flashcards and an AI pentest report builder.</span></p>
-        <div class="stack"><span>React</span><span>TypeScript</span><span>Supabase</span><span>MCP</span></div>
-        <a class="go" href="https://delunalearning.do" target="_blank" rel="noopener">delunalearning.do ↗</a>
-      </article>
-      <article class="card rv spot"><span class="badge">CJCA Trainer</span><h3><span data-l="es">Práctica de comandos</span><span data-l="en">Command practice</span></h3>
-        <p><span data-l="es">App para practicar la enumeración de servicios que pide la CJCA.</span><span data-l="en">App to practice the service enumeration the CJCA requires.</span></p>
-        <a class="go" href="https://cjca-trainer.lovable.app/" target="_blank" rel="noopener">cjca-trainer.lovable.app ↗</a></article>
-      <article class="card rv spot"><span class="badge">DL-Stock</span><h3><span data-l="es">Inventario para pymes</span><span data-l="en">Inventory for SMBs</span></h3>
-        <p><span data-l="es">SaaS de inventario y facturación para negocios dominicanos.</span><span data-l="en">Inventory and invoicing SaaS for Dominican businesses.</span></p>
-        <span class="go off"><span data-l="es">Link próximamente</span><span data-l="en">Link coming soon</span></span></article>
-    </div>
-  </div>
-</section>
-<section class="block tight">
-  <div class="wrap">
-    <div class="head rv"><div><div class="eyebrow"><span data-l="es">Servicios</span><span data-l="en">Services</span></div><h2><span data-l="es">En qué te puedo ayudar</span><span data-l="en">How I can help</span></h2></div>
-      <p><span data-l="es">Toca un servicio para ver el detalle, o contrátalo directo por WhatsApp.</span><span data-l="en">Tap a service to see the details, or hire it straight on WhatsApp.</span></p></div>
-    <div class="svc rv sweep"><div class="spot"><span class="n">01</span><h3><a href="services.html#escaneo" style="color:inherit"><span data-l="es">Escaneo de vulnerabilidades</span><span data-l="en">Vulnerability scanning</span></a></h3><p><span data-l="es">Puertos, servicios y versiones expuestas con reporte de riesgos.</span><span data-l="en">Exposed ports, services and versions with a risk report.</span></p><div class="acts"><a class="hire" data-wa="escaneo" href="https://wa.me/18492591279" target="_blank" rel="noopener"><span data-l="es">Contratar ↗</span><span data-l="en">Hire ↗</span></a><a class="det" href="services.html#escaneo"><span data-l="es">Detalle →</span><span data-l="en">Details →</span></a></div></div><div class="spot"><span class="n">02</span><h3><a href="services.html#auditoria-web" style="color:inherit"><span data-l="es">Auditoría de seguridad web</span><span data-l="en">Web security audit</span></a></h3><p><span data-l="es">WordPress y sitios a medida: plugins, archivos expuestos, usuarios.</span><span data-l="en">WordPress and custom sites: plugins, exposed files, users.</span></p><div class="acts"><a class="hire" data-wa="auditoria-web" href="https://wa.me/18492591279" target="_blank" rel="noopener"><span data-l="es">Contratar ↗</span><span data-l="en">Hire ↗</span></a><a class="det" href="services.html#auditoria-web"><span data-l="es">Detalle →</span><span data-l="en">Details →</span></a></div></div><div class="spot"><span class="n">03</span><h3><a href="services.html#pentest-web" style="color:inherit"><span data-l="es">Pentesting web autorizado</span><span data-l="en">Authorized web pentest</span></a></h3><p><span data-l="es">Control de acceso, autenticación y lógica de negocio.</span><span data-l="en">Access control, authentication and business logic.</span></p><div class="acts"><a class="hire" data-wa="pentest-web" href="https://wa.me/18492591279" target="_blank" rel="noopener"><span data-l="es">Contratar ↗</span><span data-l="en">Hire ↗</span></a><a class="det" href="services.html#pentest-web"><span data-l="es">Detalle →</span><span data-l="en">Details →</span></a></div></div><div class="spot"><span class="n">04</span><h3><a href="services.html#cloud" style="color:inherit"><span data-l="es">Revisión de configuración cloud</span><span data-l="en">Cloud config review</span></a></h3><p><span data-l="es">Supabase, políticas RLS e IP de origen detrás de Cloudflare.</span><span data-l="en">Supabase, RLS policies and origin IP behind Cloudflare.</span></p><div class="acts"><a class="hire" data-wa="cloud" href="https://wa.me/18492591279" target="_blank" rel="noopener"><span data-l="es">Contratar ↗</span><span data-l="en">Hire ↗</span></a><a class="det" href="services.html#cloud"><span data-l="es">Detalle →</span><span data-l="en">Details →</span></a></div></div><div class="spot"><span class="n">05</span><h3><a href="services.html#hardening" style="color:inherit"><span data-l="es">Hardening</span><span data-l="en">Hardening</span></a></h3><p><span data-l="es">Cambios concretos para cerrar lo encontrado.</span><span data-l="en">Concrete changes to close what was found.</span></p><div class="acts"><a class="hire" data-wa="hardening" href="https://wa.me/18492591279" target="_blank" rel="noopener"><span data-l="es">Contratar ↗</span><span data-l="en">Hire ↗</span></a><a class="det" href="services.html#hardening"><span data-l="es">Detalle →</span><span data-l="en">Details →</span></a></div></div><div class="spot"><span class="n">06</span><h3><a href="services.html#reportes" style="color:inherit"><span data-l="es">Reportes de seguridad</span><span data-l="en">Security reports</span></a></h3><p><span data-l="es">Evidencia, severidad y pasos de remediación.</span><span data-l="en">Evidence, severity and remediation steps.</span></p><div class="acts"><a class="hire" data-wa="reportes" href="https://wa.me/18492591279" target="_blank" rel="noopener"><span data-l="es">Contratar ↗</span><span data-l="en">Hire ↗</span></a><a class="det" href="services.html#reportes"><span data-l="es">Detalle →</span><span data-l="en">Details →</span></a></div></div><div class="spot"><span class="n">07</span><h3><a href="services.html#desarrollo-web" style="color:inherit"><span data-l="es">Desarrollo web</span><span data-l="en">Web development</span></a></h3><p><span data-l="es">Sitios rápidos y seguros desde el inicio.</span><span data-l="en">Fast sites, secure from day one.</span></p><div class="acts"><a class="hire" data-wa="desarrollo-web" href="https://wa.me/18492591279" target="_blank" rel="noopener"><span data-l="es">Contratar ↗</span><span data-l="en">Hire ↗</span></a><a class="det" href="services.html#desarrollo-web"><span data-l="es">Detalle →</span><span data-l="en">Details →</span></a></div></div><div class="spot"><span class="n">08</span><h3><a href="services.html#sistemas" style="color:inherit"><span data-l="es">Sistemas a medida</span><span data-l="en">Custom systems</span></a></h3><p><span data-l="es">Inventario, facturación y paneles internos.</span><span data-l="en">Inventory, invoicing and internal dashboards.</span></p><div class="acts"><a class="hire" data-wa="sistemas" href="https://wa.me/18492591279" target="_blank" rel="noopener"><span data-l="es">Contratar ↗</span><span data-l="en">Hire ↗</span></a><a class="det" href="services.html#sistemas"><span data-l="es">Detalle →</span><span data-l="en">Details →</span></a></div></div></div>
-  </div>
-</section>
-<section class="block tight">
-  <div class="wrap">
-    <div class="contact rv spot sweep">
-      <div><div class="eyebrow"><span data-l="es">Contacto</span><span data-l="en">Contact</span></div>
-        <h2><span data-l="es">¿Tienes un sitio que quieres asegurar?</span><span data-l="en">Have a site you want secured?</span></h2>
-        <p><span data-l="es">Escríbeme y lo hablamos. También estoy abierto a oportunidades de trabajo en seguridad, presencial en Santo Domingo o remoto.</span><span data-l="en">Message me and let's talk. I'm also open to security roles, on-site in Santo Domingo or remote.</span></p></div>
-      <div class="chan">
-        <a data-wa href="https://wa.me/18492591279" target="_blank" rel="noopener">WhatsApp <span><span data-l="es">abrir chat ↗</span><span data-l="en">open chat ↗</span></span></a>
-        <button type="button" id="copyMail">cdeluna.sec@gmail.com <span id="copyLbl"><span data-l="es">copiar</span><span data-l="en">copy</span></span></button>
-        <a href="contact.html"><span data-l="es">Más formas de contacto</span><span data-l="en">More ways to reach me</span> <span>→</span></a>
-      </div>
-    </div>
-  </div>
-</section>
-</main>
-<footer>
-  <div class="logo">cdeluna<b>.</b>sec</div>
-  <p><span data-l="es">Pentesting web, auditorías de seguridad y desarrollo. Santo Domingo, República Dominicana.</span><span data-l="en">Web pentesting, security audits and development. Santo Domingo, Dominican Republic.</span></p>
-  <div class="socials"><a href="https://github.com/cdelunasec" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a><a href="https://www.linkedin.com/in/cristian-de-luna-a615993aa" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21h-4z"/></svg></a><a href="https://profile.hackthebox.com/profile/019d363d-97a9-7000-80f8-97a98ddf913b" target="_blank" rel="noopener" aria-label="Hack The Box" title="Hack The Box"><svg viewBox="0 0 24 24"><path d="M12 1.5 2.9 6.75v10.5L12 22.5l9.1-5.25V6.75zm0 2.3 6.9 3.98L12 11.76 5.1 7.78zM4.9 9.5l6.1 3.52v7.03l-6.1-3.52zm8.1 10.55v-7.03l6.1-3.52v7.03z"/></svg></a><a href="https://www.credly.com/users/cristian-de-luna.58042586" target="_blank" rel="noopener" aria-label="Credly" title="Credly"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-4 12.74V22l4-2 4 2v-7.26A7 7 0 0 0 12 2zm0 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2-.9 1.83-2 .3 1.45 1.41-.34 2 1.79-.94 1.79.94-.34-2 1.45-1.41-2-.3z"/></svg></a><a href="https://wa.me/18492591279" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp" data-wa><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.13-1.47-.73-1.7-.81-.23-.08-.4-.13-.56.12-.17.25-.64.81-.79.98-.14.17-.29.19-.54.06a6.7 6.7 0 0 1-3.34-2.92c-.25-.43.25-.4.72-1.33.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.02 2.6c.13.17 1.77 2.7 4.29 3.79 1.6.69 2.22.75 3.02.63.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg></a></div>
-  <div class="sm">© 2026 Cristian De Luna · cdeluna.sec@gmail.com</div>
-</footer>
-<button class="bot-btn" id="botBtn" aria-label="Selene"><span>☾</span> Selene</button>
-<div class="bot" id="bot" hidden>
-  <header><div>Selene<small><span data-l="es">ASISTENTE DEL PORTAFOLIO</span><span data-l="en">PORTFOLIO ASSISTANT</span></small></div><button id="botX" aria-label="Cerrar">×</button></header>
-  <div class="msgs" id="botMsgs"></div>
-  <div class="chips" id="botChips"></div>
-</div>
-<div class="tboot" id="tboot" hidden></div>
-<div class="tdock" id="tdock" hidden>
-  <div class="grip" id="grip" title="Arrastra para cambiar el ancho"></div>
-  <div class="t-head"><i></i><i></i><i></i><span>deluna@kali: ~/portfolio</span><b>● LIVE</b></div>
-  <div class="t-out" id="tOut"></div>
-  <div class="t-in"><span class="pl">┌──(deluna㉿kali)-[~/portfolio]</span><div class="row"><span class="pl">└─$</span><input id="tIn" autocomplete="off" spellcheck="false" aria-label="Comando" placeholder="type: help"></div></div>
-</div>
-<script src="assets/js/main.js"></script>
-<script src="assets/js/home.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/home.js"></script>
+  </body>
 </html>
